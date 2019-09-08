@@ -1,7 +1,7 @@
 ---
 title: "Prediction and Classification Modeling"
 date: 2019-09-08T18:23:14-04:00
-draft: true
+draft: false
 ---
 ## Population parameters
 - **population mean** ?
