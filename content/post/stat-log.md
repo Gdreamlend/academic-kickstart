@@ -9,7 +9,7 @@ markup: mmark
 μ = (Σ * X)/ N 平均值
 - **population variance** 
 σ<sup>2</sup> is population variance 
-$$σ_2 = \frac{\sum^{i \to \1}_{n}{(x<sub>i</sub> - μ)<sup>2</sup>}}{N}$$
+$$\sigma^2 = \frac{\sum^{i \to \1}_{n}{(x_i - \mu)^2}}{N}$$
 - **population standard deviation**?
 
 **z-score**? It represents the number of standard deviations away from the mean that a value is.
