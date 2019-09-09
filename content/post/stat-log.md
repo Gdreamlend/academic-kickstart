@@ -12,6 +12,8 @@ markup: mmark
 $$\sigma^2 = \frac{\sum^{i \to \1}_{n}{(x_i - \mu)^2}}{N}$$
 - **population standard deviation**?
 
+$$E=mc^2$$
+
 **z-score**? It represents the number of standard deviations away from the mean that a value is.
 Reject H<sub>0</sub> when you have a relatively large |Z<sub>calc</sub>|; that is |Z<sub>calc</sub>| > |Z<sub>critical</sub>|.
 In this situation, you reject h<sub>0</sub> when the value is a relatively large number of standard deviations away from the hypothesized value.
