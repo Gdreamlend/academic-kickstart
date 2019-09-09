@@ -25,7 +25,7 @@ The range of Z is -3 to 3.
 - if Z-score = 1: the value is one standard deviation away from the mean.
 
 Z-scores may be positive or negative, with a positive value indicating the score is above the mean and a negative score indicating it is below the mean.
-![Normal distribution and Z values](/static/img/normaldistribution.png)
+![Normal distribution and Z values](/img/normaldistribution.png)
 Reject H<sub>0</sub> when you have a relatively large |Z<sub>calc</sub>|; that is |Z<sub>calc</sub>| > |Z<sub>critical</sub>|.
 In this situation, you reject H<sub>0</sub> when the value is a relatively large number of standard deviations away from the hypothesized value.
 
