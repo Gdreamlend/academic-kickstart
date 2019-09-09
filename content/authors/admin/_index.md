@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Now I am a teaching assistant and graduate student at Duquesne University, majoring in Computational Mathematics and Statistics, interested in software development and data analysis. 
+bio: Graduate student at Duquesne University, majoring in Computational Mathematics and Statistics, interested in software development and data analysis. 
 
 interests:
 - Artificial Intelligence
