@@ -2,13 +2,14 @@
 title: "Prediction and Classification Modeling"
 date: 2019-09-08T18:23:14-04:00
 draft: false
+markup: mmark
 ---
 ## Population parameters
 - **population mean**  
 μ = (Σ * X)/ N 平均值
 - **population variance** 
 σ<sup>2</sup> is population variance 
-$$ σ<sup>2</sup> = \frac{\sum^{i \to \1}_{n}{(x<sub>i</sub> - μ)<sup>2</sup>}}{N} $$
+$$σ_2 = \frac{\sum^{i \to \1}_{n}{(x<sub>i</sub> - μ)<sup>2</sup>}}{N}$$
 - **population standard deviation**?
 
 **z-score**? It represents the number of standard deviations away from the mean that a value is.
