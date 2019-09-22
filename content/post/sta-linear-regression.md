@@ -20,3 +20,22 @@ draft: false
 **sum of squares**
 
 $$SSQ(x)=\sum(x-\bar{x})^{2}=\sum(x)^{2}-\frac{\sum(x)^{2}}{n}$$
+
+$$SSQ(y)=\sum(y-\bar{y})^{2}=\sum(y)^{2}-\frac{\sum(y)^{2}}{n}$$
+
+Total SSQ = SSQ(y)
+$$SSQ(reg)=\hat{\beta_1}^{2}\cdot{SSQ(x)}$$
+
+$$SSQ(xy)=\sum(x-\bar{x})(y-\bar{y})=\sum{xy}-\frac{\sum{x}\sum{y}}{n}$$
+
+$$\hat{\beta_1}=\frac{SSQ(xy)}{SSQ(x)}$$
+
+$$\hat{\beta_0}=\bar{y}-\hat{\beta_1}\bar{x}$$
+
+$$S_{y|x}^{2}=\frac{\sum(y_i-\hat{y_i})^{2}}{n-2}=\frac{SSE}{n-2}$$ 定义存疑？？？
+
+The standard error of the slope or standard error of estimate $$SE_{\hat{\beta_1}}$$ represents the average distance that your observed values deviate from the regression line.
+
+$$SE_{\hat{\beta_1}}=\sqrt{\frac{1}{n-2}\frac{\sum(y_i-\hat{y_i})^2}{\sum(x_i-\bar{x})^2}}=\sqrt{\frac{SSE}{(n-2)SSQ(x)}}$$ 定义存疑？？？
+
+
