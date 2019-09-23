@@ -7,10 +7,10 @@ markup: mmark
 ## Population parameters
 - **population mean**  
 μ = (Σ * X)/ N 平均值
-- **population variance**  
+- **population variance**  方差
 $\sigma^{2}$ is population variance 
 $$\sigma^{2}=\frac{\sum_{1}^{n}(x_{i}-\mu)^{2}}{N}$$
-- **population standard deviation**
+- **population standard deviation** 标准差
 $$\sigma=\sqrt{\frac{\sum(x_{i}-\mu)^{2}}{N}}$$
 Sample standard deviation:
 $$s_x=\sqrt{\frac{\sum(x_{i}-\bar{x})^{2}}{n-1}}$$
