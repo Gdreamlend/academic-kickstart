@@ -19,9 +19,9 @@ draft: false
 ## Inference for Regression Slope
 **sum of squares**
 
-$$SSQ(x)=\sum(x-\bar{x})^{2}=\sum(x)^{2}-\frac{(\sum(x))^{2}}{n}$$
+$$SSQ(x)=\sum(x-\bar{x})^{2}=\sum(x)^{2}-\frac{(\sum{x})^{2}}{n}$$
 
-$$SSQ(y)=\sum(y-\bar{y})^{2}=\sum(y)^{2}-\frac{(\sum(y))^{2}}{n}$$
+$$SSQ(y)=\sum(y-\bar{y})^{2}=\sum(y)^{2}-\frac{(\sum{y})^{2}}{n}$$
 
 Total SSQ = SSQ(y)
 $$SSQ(reg)=\hat{\beta_1}^{2}\cdot{SSQ(x)}$$
