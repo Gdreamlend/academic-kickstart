@@ -38,10 +38,14 @@ $$\sigma^{2}=S_{y|x}^{2}=\frac{\sum(y_i-\hat{y_i})^{2}}{n-2}=\frac{SSE}{n-2}$$
 
 The standard error of the slope or standard error of estimate $$SE_{\hat{\beta_1}}$$ represents the average distance that your observed values deviate from the regression line.
 
-$$S_{\hat{\beta_1}}=SE_{\hat{\beta_1}}=\sqrt{\frac{1}{n-2}\frac{\sum(y_i-\hat{y_i})^2}{\sum(x_i-\bar{x})^2}}=\sqrt{\frac{SSE}{(n-2)SSQ(x)}}$$ 
+$$S_{\hat{\beta_1}}=SE_{\hat{\beta_1}}$$
+
+$$SE_{\hat{\beta_1}}=\sqrt{\frac{1}{n-2}\frac{\sum(y_i-\hat{y_i})^2}{\sum(x_i-\bar{x})^2}}=\sqrt{\frac{SSE}{(n-2)SSQ(x)}}$$ 
 
 定义存疑？？？
 
 Total SSQ = SSQ(y)
+
 SSQ(Reg) = $${\hat{\beta_1}}^{2}(SSQ(x))$$
+
 SSQ(error) = SSE = SSQ(y) - SSQ(Reg)
