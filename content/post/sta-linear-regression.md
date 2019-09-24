@@ -4,6 +4,21 @@ date: 2019-09-16T15:47:55-04:00
 draft: false
 ---
 
+The level of measurement of a variable can be either nominal, ordinal,
+interval or ratio.
+
+Nominal:
+Unordered categorical variables. These can be either binary (only two categories, like gender: male or female) or multinomial (more than two categories, like marital status: married, divorced, never married, widowed, separated). The key thing here is that there is no logical order to the categories.
+
+Ordinal:
+Ordered categories. Still categorical, but in an order. Likert items with responses like: “Never, Sometimes, Often, Always” are ordinal.
+
+Interval:
+Numerical values without a true zero point. The idea here is the intervals between the values are equal and meaningful, but the numbers themselves are arbitrary. 0 does not indicate a complete lack of the quantity being measured. IQ and degrees Celsius or Fahrenheit are both interval.
+
+Ratio:
+Numerical values with a true zero point.
+
 ## Conditions for a simple linear model
 - **Linearity** The average values of the response Y for each value of X fall on a common straight line.
 - **Zero Mean** The error distribution is centered at zero.(Note: By using least squares regression, we force the residual mean to be zero. Other techniques would not necessarily satisfy this condition.)
@@ -49,3 +64,25 @@ Total SSQ = SSQ(y)
 SSQ(Reg) = $${\hat{\beta_1}}^{2}(SSQ(x))$$
 
 SSQ(error) = SSE = SSQ(y) - SSQ(Reg)
+
+T-test
+
+**Find α/2**
+
+Level of Confidence = 95%
+
+α = 100% - (Level of Confidence) = 5%
+
+α/2 = 2.5% = 0.025
+
+**Find tα/2**
+
+Calculate tα/2 by using t-distribution with degrees of freedom (df) as n - 2 and α/2 as right-tailed area.
+
+Confidence Interval(CI):
+
+CI for the mean value of Y ($$\mu_{Y|X}$$):
+
+$$\hat{Y}_{X_0}\pm{t_{n-2,1-{\alpha}/2}}S_{\hat{Y}_{X_0}}$$
+
+$$S_{\hat{Y}_{X_0}}=S_{Y|X}\sqrt{\frac{1}{n}+{\frac{(X_0-\bar{X})^2}{(n-1)SSQ(x)}}}$$

@@ -33,6 +33,8 @@ In this situation, you reject H<sub>0</sub> when the value is a relatively large
 
 **central limited theorem** states that as the sample size gets larger(>30), the sampling distribution of the sample means approaches a normal distribution. Application: the average of the sample means will be the population mean.[Reference](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/normal-distributions/central-limit-theorem-definition-examples/)
 
+
+
 **P-Value** [Reference](https://www.statisticshowto.datasciencecentral.com/p-value/)
 
 Z值越大，P值越小,越要拒绝H<sub>0</sub>。
