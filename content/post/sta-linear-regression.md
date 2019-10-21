@@ -66,6 +66,15 @@ SSQ(Reg) = $${\hat{\beta_1}}^{2}(SSQ(x))$$
 SSQ(error) = SSE = SSQ(y) - SSQ(Reg)
 
 T-test
+Hypothesis Test for Regression Slope
+
+$H_o: Β1 = 0$
+
+$H_a: Β1 ≠ 0$
+
+$$t = b_1/SE$$
+
+where b1 is the slope of the sample regression line, and SE is the standard error of the slope.
 
 **Find α/2**
 
