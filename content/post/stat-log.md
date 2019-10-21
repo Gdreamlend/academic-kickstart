@@ -4,6 +4,13 @@ date: 2019-09-08T18:23:14-04:00
 draft: false
 markup: mmark
 ---
+
+**Descriptive statistics** are brief descriptive coefficients that summarize a given data set, which can be either a representation of the entire or a sample of a population. Descriptive statistics are broken down into measures of central tendency and measures of variability.
+
+ **Inferential statistics** use a random sample of data taken from a population to describe and make inferences about the population.
+
+ 
+
 ## Population parameters
 - **population mean**  
 μ = (Σ * X)/ N 平均值
