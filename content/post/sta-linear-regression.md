@@ -39,7 +39,7 @@ $$SSQ(x)=\sum(x-\bar{x})^{2}=\sum(x)^{2}-\frac{(\sum{x})^{2}}{n}$$
 $$SSQ(y)=\sum(y-\bar{y})^{2}=\sum(y)^{2}-\frac{(\sum{y})^{2}}{n}$$
 
 Total SSQ = SSQ(y)
-$$SSQ(reg)=\hat{\beta_1}^{2}\cdot{SSQ(x)}$$
+$$SSQ(reg)={\hat{\beta_1}}^{2}\cdot{SSQ(x)}$$
 
 $$SSQ(xy)=\sum(x-\bar{x})(y-\bar{y})=\sum{xy}-\frac{\sum{x}\sum{y}}{n}$$
 
@@ -55,7 +55,7 @@ The standard error of the slope or standard error of estimate $$SE_{\hat{\beta_1
 
 $$S_{\hat{\beta_1}}=SE_{\hat{\beta_1}}$$
 
-$$SE_{\hat{\beta_1}}=\sqrt{\frac{1}{n-2}\frac{\sum(y_i-\hat{y_i})^2}{\sum(x_i-\bar{x})^2}}=\sqrt{\frac{SSE}{(n-2)SSQ(x)}}$$ 
+$$SE_{\hat{\beta_1}}=\sqrt{\frac{1}{n-2}\frac{{\sum(y_i-\hat{y_i})}^2}{\sum(x_i-\bar{x})^2}}=\sqrt{\frac{SSE}{(n-2)SSQ(x)}}$$ 
 
 定义存疑？？？
 
@@ -75,13 +75,13 @@ Level of Confidence = 95%
 
 α/2 = 2.5% = 0.025
 
-**Find tα/2**
+**Find t_{α/2}**
 
 Calculate tα/2 by using t-distribution with degrees of freedom (df) as n - 2 and α/2 as right-tailed area.
 
 Confidence Interval(CI):
 
-CI for the mean value of Y ($$\mu_{Y|X}$$):
+CI for the mean value of Y ($\mu_{Y|X}$):
 
 $$\hat{Y}_{X_0}\pm{t_{n-2,1-{\alpha}/2}}S_{\hat{Y}_{X_0}}$$
 
