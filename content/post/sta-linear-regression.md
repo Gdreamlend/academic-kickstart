@@ -93,11 +93,11 @@ Confidence Interval(CI):
 CI for the mean value of Y ($\mu_{Y|X}$):
 
 
-$\hat{Y}_{X_0}$ $\pm{t_{n-2,1-{\alpha}/2}}$
+$$\hat{Y}_{X_0}\pm{t_{n-2,1-{\alpha}/2}}$$
 
 $$$$
 
-$$S_{\hat{Y}_{X_0}}$$
+$$S_{\hat{Y}}_{X_0}$$
 
 
 $$S_\hat{Y}_{X_0}$$
