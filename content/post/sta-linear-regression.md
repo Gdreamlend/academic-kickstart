@@ -1,7 +1,7 @@
 ---
 title: "Linear Regression"
 date: 2019-09-16T15:47:55-04:00
-draft: false
+draft: true
 ---
 
 The level of measurement of a variable can be either nominal, ordinal,
@@ -66,6 +66,9 @@ SSQ(Reg) = $${\hat{\beta_1}}^{2}(SSQ(x))$$
 SSQ(error) = SSE = SSQ(y) - SSQ(Reg)
 
 T-test
+
+A t-test is most commonly applied when the test statistic would follow a normal distribution if the value of a scaling term in the test statistic were known.
+
 Hypothesis Test for Regression Slope
 
 $H_o: Β1 = 0$
@@ -93,14 +96,25 @@ Confidence Interval(CI):
 CI for the mean value of Y ($\mu_{Y|X}$):
 
 
-$$\hat{Y}_{X_0}\pm{t_{n-2,1-{\alpha}/2}}$$
+$$\hat{Y}_{X_0}\pm{t_{n-2,1-{\alpha}/2}}S_{\hat{Y}_{X_0}}$$
 
-$$$$
-
-$$S_{\hat{Y}}_{X_0}$$
+$$S_{\hat{Y}_{X_0}}=S_{Y|X}\sqrt{\frac{1}{n}+{\frac{(X_0-\bar{X})^2}{(n-1)SSQ(x)}}}$$
 
 
-$$S_\hat{Y}_{X_0}$$
- $$$$
 
-$$=S_{Y|X}\sqrt{\frac{1}{n}+{\frac{(X_0-\bar{X})^2}{(n-1)SSQ(x)}}}$$
+
+Why are t-tests rather than z-tests used in linear regression?
+
+Because the variance of the error must be estimated from the residuals. This is then used to calculate the standard error of the regression coefficients and predictions.
+
+Do the explanatory variables need to have normal distribution in linear regression?
+
+No, explanatory variables are considered "fixed by design". They can come from any distribution. You would have to derive a whole different type of regression routine to incorporate variance in the X variables.
+
+Why are there z-tests rather than t-tests in logistic regression?
+
+Because for a binomial outcome the variance depends on the mean and not the residuals, so you don't have to estimate any extra parameters.
+
+Because we have to estimate the variance of the residuals to calculate the standard error of the coefficients, we need to use a t-value and the t-distribution.
+
+In logistic (and poisson) regression, the variance of the residuals is related to the mean. If Y∼Bin(n,p), the mean is E(Y)=np and the variance is Var(Y)=np(1−p) so the variance and the mean are related. In logistic and poisson regression but not in regression with gaussian errors, we know the expected variance and don't have to estimate it separately.
